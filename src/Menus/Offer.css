@@ -1,0 +1,59 @@
+.offer {
+    margin-top: 30px;
+    height: auto;
+}
+
+.typewriter h1 {
+    color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    overflow: hidden;
+    /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange;
+    /* The typwriter cursor */
+    white-space: nowrap;
+    /* Keeps the content on a single line */
+    margin: 0 auto;
+    /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .1em;
+    /* Adjust as needed */
+    animation:
+        typing 3.5s steps(30, end),
+        blink-caret .5s step-end infinite;
+}
+
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 50%
+    }
+}
+
+
+@keyframes blink-caret {
+
+    from,
+    to {
+        border-color: transparent
+    }
+
+    50% {
+        border-color: orange
+    }
+}
+
+.formdi {
+    display: flex;
+    justify-content: center;
+}
+
+.ipl {
+    background-image: url(https://icccricketschedule.gumlet.io/wp-content/uploads/2016/03/cricket-stadium-backround-1.jpg?compress=true&quality=80&w=640&dpr=2.6);
+    background-size: cover;
+    margin-bottom: 5%;
+    padding: 2%;
+
+}

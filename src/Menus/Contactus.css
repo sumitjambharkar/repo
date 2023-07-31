@@ -1,0 +1,23 @@
+
+.contavv{
+    margin-top: 10%;
+    margin-bottom: 5%;
+
+}
+.form-body{
+    background-color: gainsboro;
+    padding: 9%;
+}
+.maps{
+    background-color: gainsboro;
+  
+   margin-bottom: 5%;
+   display: flex;
+   justify-content: center;
+   height: 39vh;
+   width: 90%;
+   align-items: center;
+}
+.input--style-5{
+    background-color: white;
+}

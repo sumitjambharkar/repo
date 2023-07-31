@@ -1,0 +1,38 @@
+.footer{
+    background-color: black;
+    height: auto;
+    margin-top: auto;
+    color: orange;
+    font-size: 30px;
+    padding: 25px;
+   
+}
+.footerr{
+    background-color: black;
+    text-align: center;
+    color: orange;
+    margin-bottom: 0px;
+}
+.ulfooter{
+    list-style: none;
+    font-size: 18px;
+}
+.ssd{
+    display: flex;
+    justify-content: center;
+}
+.ssdd{
+    display: flex;
+    justify-content: center;
+}
+@media screen and (max-width: 992px) {
+    .ssd{
+        display: flex;
+        justify-content: left;
+    }
+    .ssdd{
+        display: flex;
+        justify-content: left;
+      
+    }
+  }

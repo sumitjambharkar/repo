@@ -1,0 +1,29 @@
+.formss {
+    width: 500px;
+    padding: 20px;
+  background-color: rgb(223, 224, 224);
+    border-radius: 10px;
+margin: 5px;
+}
+
+.forms {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 100%;
+  margin-bottom: 2%;
+ 
+}
+
+.addti {
+    text-align: center;
+    margin-top: 2%;
+}
+.selecter{
+    width: 100%;
+}
+.input--style-5{
+    color: orange;
+   
+}

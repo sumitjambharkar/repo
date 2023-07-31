@@ -1,0 +1,117 @@
+.navbar {
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+  }
+  .nav{
+    background-color: orange;
+  }
+
+
+    
+
+  
+.animate-charcter {
+    text-transform: uppercase;
+    background-image: linear-gradient(-225deg,
+        #f8b526 0%,
+        #f51111 29%,
+        #0f0f0f 67%,
+        #fd4726 100%);
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+  
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+    display: inline-block;
+    font-size:30px;
+    font-weight: 700;
+  }
+  
+  @keyframes textclip {
+    to {
+      background-position: 200% center;
+    }
+  }
+
+  .sudiv {
+    display: flex;
+    justify-content: right;
+  }
+
+  .tog {
+    margin: 20px;
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+  }
+  
+  .togg {
+    margin: 20px;
+  }
+  .linku {
+    text-decoration: none;
+    color: black;
+  }
+  .linku:hover{
+ background-color: orange;
+ 
+  }
+  .burgrr{
+    height: 50px;
+    margin-top: 1px;
+    margin-left: 22px;
+    padding: 5px;
+    border: none;
+    color: white;
+    font-size: larger;
+  }
+   .avtar{
+    width: 72px;
+    margin-top: 518px;
+    position: absolute;
+    margin-left: 23px;
+    border-radius: 50%;
+  }
+  .avtar:hover{
+    transform: scale(1.3);}
+
+
+  @media screen and (min-width: 480px) {
+    .burgrr{
+     margin-top: 11px;
+    }
+     .avtar{
+      margin-left: 21px;
+      margin-top:700px;
+      width: 7%;
+      border-radius: 50%;
+
+      
+    }
+    .avtar:hover{
+      transform: scale(1.3);}
+  }
+
+  .linkss {
+    padding: 20px;
+    text-decoration: none;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    margin: 5px;
+
+}
+.logoimages{
+  width: 305px;
+}
+
+@media screen and (max-width: 480px) {
+  .logoimages{
+    width: 230%;
+    margin-left: -31px;
+  }
+}
